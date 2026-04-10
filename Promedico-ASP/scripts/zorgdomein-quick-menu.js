@@ -353,35 +353,32 @@
     {
         text: 'Diagnostiek',
         code: 'LAB',
-        url: 'https://www.zorgdomein.nl/healthcare-request/diagnostics',
+        url: 'https://www.zorgdomein.nl/supply-matcher/supply?flowId=6dda284c-57e0-45e1-a3e4-8b7dd9d67ae3',
         submenu: [
             {
                 text: 'Lab',
                 code: 'LAB',
                 url: 'https://www.zorgdomein.nl/zd/referral/choose-product/51d786ec-f6e1-4a9e-ae56-b485c498866f',
                 submenu: [
-                    { text: 'Klinische Chemie, Microbiologie en Immunologie', code: 'LAB', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/51d786ec-f6e1-4a9e-ae56-b485c498866f' },
-                    { text: 'Cervixcytologie Huisartsen', code: 'CYT', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/e33a2739-fa72-4555-b03e-68dea508db93' },
-                    { text: 'Cytologie Pathologie', code: 'CYT', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/81706206-d955-445d-b2f6-4be7434efed6' },
-                    { text: 'Histologie Pathologie', code: 'PAA', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/5f294c40-128e-480d-a8c6-8590b471dffd' },
-                    { text: 'Trombosedienst - Aanmelden', code: 'THD', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/1df21ff0-0b7c-4781-b70e-de9bf07c54a3' },
-                    { text: 'Trombosedienst - Afmelden', code: 'THD', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/8216cacc-9ab3-41d8-a9b2-d4856801d70d' },
-                    { text: 'Trombosedienst - Meldingen', code: 'THD', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/834253e0-6651-45e3-8cd4-eaea4e59df58' },
-                    { text: 'Uitstrijkje BVO', code: 'LAB', url: 'https://www.zorgdomein.nl/protocol/10156d2b-9d91-499b-813e-fd981e37ea2f' }
+                    { text: 'Klinische Chemie, Microbiologie en Immunologie', code: 'LAB', url: 'https://www.zorgdomein.nl/referral/transaction/CAIQARoQ_d8ILeQGJbkckqybfxQw7yIMCJf65M4GENGC3agC' },
+                    { text: 'Cervixcytologie Huisartsen', code: 'CYT', url: 'https://www.zorgdomein.nl/referral/transaction/787d9c45-816a-48bd-a2f9-1a71f32658fa' },
+                    { text: 'Histologie Pathologie', code: 'PAA', url: 'https://www.zorgdomein.nl/referral/transaction/667813b9-c5cd-464f-9a2d-cce0d3ddb31b' },
+                    { text: 'Uitstrijkje BVO', code: 'LAB', url: 'https://www.zorgdomein.nl/referral/screen-it-cervical-cancer-verification?redirectUrl=%2Freferral%2Fchoose-product%2F10156d2b-9d91-499b-813e-fd981e37ea2f' }
                 ]
             },
             {
                 text: 'Röntgen',
                 code: 'RON',
-                url: 'https://www.zorgdomein.nl/supply-matcher/supply?flowId=cfc4fbf6-60b5-4ef2-bd40-bb17fdf93457',
+                url: 'https://www.zorgdomein.nl/supply-matcher/supply?flowId=cfb5000e-65b8-425f-b84f-dbc63f506c1c',
                 submenu: [
-                    { text: 'Wervelkolom', code: 'RON', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/632a5125-7fcf-49f3-9270-527282e4f4cf' },
-                    { text: 'Bovenste extremiteiten', code: 'RON', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/90118f1c-9172-4cf7-bd1b-e8d3f327018d' },
-                    { text: 'Hals/Thorax', code: 'RON', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/130dbc65-3198-41c9-a7c8-280e432806fe' },
-                    { text: 'Onderste extremiteiten', code: 'RON', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/00e30944-e4ce-44ba-9fc9-b892774908ed' },
-                    { text: 'Schedel/Aangezicht', code: 'RON', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/0601d64f-f8e3-4dcd-8d1d-3bcadca6a4a1' },
-                    { text: 'Abdomen', code: 'RON', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/b478cfcf-10b0-4d4e-81fa-7105581e0ac0' },
-                    { text: 'Slokdarm/Maag', code: 'RON', url: 'https://www.zorgdomein.nl/zd/referral/choose-product/33746ddb-e34c-4b6a-aa8e-8f687281d9cb' }
+                    { text: 'Wervelkolom', code: 'RON', url: 'https://www.zorgdomein.nl/referral/transaction/2c371a6a-1e64-4d83-835e-bbd834714436' },
+                    { text: 'Bovenste extremiteiten', code: 'RON', url: 'https://www.zorgdomein.nl/referral/transaction/9e143115-271c-47c3-bd76-38afa81109a2' },
+                    { text: 'Hals/Thorax', code: 'RON', url: 'https://www.zorgdomein.nl/referral/transaction/b5a97587-01a3-4b35-a797-ad119f757349' },
+                    { text: 'Onderste extremiteiten', code: 'RON', url: 'https://www.zorgdomein.nl/referral/transaction/6509170a-b390-4cf3-898f-46389ed2ebd3' },
+                    { text: 'Schedel/Aangezicht', code: 'RON', url: 'https://www.zorgdomein.nl/referral/transaction/6691d449-61e3-414f-82d4-ea4842f515ee' },
+                    { text: 'Abdomen', code: 'RON', url: 'https://www.zorgdomein.nl/referral/transaction/b4b080a0-9e7b-48e0-b7de-31465338f571' },
+                    { text: 'Mammografie', code: 'RON', url: https://www.zorgdomein.nl/referral/transaction/7892fb05-b2a9-4b49-8acb-31ca0d926841
+                    { text: 'DEXA', code: 'RON',  https://www.zorgdomein.nl/referral/transaction/d9807b8e-dd89-410e-8699-687a24ff7efe
                 ]
             },
             {
